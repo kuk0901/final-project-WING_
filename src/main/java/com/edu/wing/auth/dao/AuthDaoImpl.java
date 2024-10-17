@@ -1,14 +1,11 @@
 package com.edu.wing.auth.dao;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.edu.wing.auth.domain.AuthVo;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.edu.wing.auth.domain.AuthVo;
+import java.util.HashMap;
 
 @Repository
 public class AuthDaoImpl implements AuthDao {
